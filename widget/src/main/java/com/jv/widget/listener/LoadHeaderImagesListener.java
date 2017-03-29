@@ -4,7 +4,7 @@ import android.support.design.widget.TabLayout;
 import android.widget.ImageView;
 
 /**
- * @author hugeterry(http://hugeterry.cn)
+ * CoordinatorTabLayout 头部图片加载监听
  */
 
 public interface LoadHeaderImagesListener {

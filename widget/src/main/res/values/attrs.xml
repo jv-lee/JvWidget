@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <declare-styleable name="CoordinatorTabLayout">
         <attr name="contentScrim" format="color" />
         <attr name="tabIndicatorColor" format="color" />
         <attr name="tabTextColor" format="color" />
     </declare-styleable>
+
+
+    <declare-styleable name="SubjectView">
+        <attr name="icon" format="reference" />
+        <attr name="iconWight" format="dimension" />
+        <attr name="iconHeight" format="dimension" />
+        <attr name="title" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="content" format="string" />
+        <attr name="contentColor" format="color" />
+        <attr name="contentSize" format="dimension" />
+
+    </declare-styleable>
+
 </resources>

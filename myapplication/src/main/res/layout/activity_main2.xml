@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D9DD"
+    android:orientation="vertical"
+    tools:context="com.jv.myapplication.Main2Activity">
+
+    <com.jv.widget.view.SubjectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        app:content="如来神掌是致力于为使用我公司产品用户提供产品展示，车辆信息及远程控制等功能的客户端。"
+        app:contentColor="#A6ADB1"
+        app:contentSize="4sp"
+        app:icon="@drawable/ic_round"
+        app:iconHeight="10dp"
+        app:iconWight="10dp"
+        app:title="如来神掌App是什么?"
+        app:titleColor="#404343"
+        app:titleSize="6sp" />
+
+    <com.jv.widget.view.SubjectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        app:content="如来神掌是致力于为使用我公司产品用户提供产品展示，车辆信息及远程控制等功能的客户端。"
+        app:contentColor="#A6ADB1"
+        app:contentSize="4sp"
+        app:icon="@drawable/ic_round"
+        app:iconHeight="10dp"
+        app:iconWight="10dp"
+        app:title="如来神掌App是什么?"
+        app:titleColor="#404343"
+        app:titleSize="6sp" />
+
+    <com.jv.widget.view.SubjectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        app:content="如来神掌是致力于为使用我公司产品用户提供产品展示，车辆信息及远程控制等功能的客户端。"
+        app:contentColor="#A6ADB1"
+        app:contentSize="4sp"
+        app:icon="@drawable/ic_round"
+        app:iconHeight="10dp"
+        app:iconWight="10dp"
+        app:title="如来神掌App是什么?"
+        app:titleColor="#404343"
+        app:titleSize="6sp" />
+
+    <com.jv.widget.view.SubjectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        app:content="如来神掌是致力于为使用我公司产品用户提供产品展示，车辆信息及远程控制等功能的客户端。"
+        app:contentColor="#A6ADB1"
+        app:contentSize="4sp"
+        app:icon="@drawable/ic_round"
+        app:iconHeight="10dp"
+        app:iconWight="10dp"
+        app:title="如来神掌App是什么?"
+        app:titleColor="#404343"
+        app:titleSize="6sp" />
+
+</LinearLayout>
