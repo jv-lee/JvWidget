@@ -1,1 +1,1 @@
-include ':widget', ':myapplication', ':bannerlib', ':recyclerlib'
+include ':widget', ':myapplication', ':bannerlib', ':recyclerlib', ':videoplayer-lib'
