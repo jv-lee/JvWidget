@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE); //设置取消 默认titleBar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, //设置隐藏状态栏
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        StatusBarUtils.setStatusBar(this);
         setContentView(R.layout.activity_main);
 
         initFragments();
