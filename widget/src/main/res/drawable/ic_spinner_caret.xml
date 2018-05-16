@@ -22,5 +22,5 @@
         android:tint="?attr/colorControlNormal">
     <path
         android:pathData="M7,10l5,5,5-5z"
-        android:fillColor="@android:color/white"/>
+        android:fillColor="#ffffff"/>
 </vector>

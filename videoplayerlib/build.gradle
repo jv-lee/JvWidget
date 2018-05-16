@@ -1,14 +1,13 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    compileSdkVersion rootProject.android.compile
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 25
-        versionCode 59
-        versionName "5.5.4"
+        minSdkVersion rootProject.android.min
+        targetSdkVersion rootProject.android.target
+        versionCode rootProject.android.vcode
+        versionName rootProject.android.vname
     }
     buildTypes {
         release {
@@ -22,7 +21,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:$rootProject.library.support"
 }
 
